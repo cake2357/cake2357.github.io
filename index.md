@@ -1,16 +1,11 @@
 ---
-layout: home
+layout: default
 title: Home
 ---
 
 # Diary
 
-<ul>
-{% for entry in site.diary %}
-  <li>
-    <a href="{{ entry.url }}">
-      {{ entry.title }}
-    </a>
-  </li>
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }})
+  ({{ post.date | date: "%Y-%m-%d" }})
 {% endfor %}
-</ul>

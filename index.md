@@ -4,14 +4,14 @@ title: Home
 ---
 
 
+
 # Diary
 
 <ul>
-{% for post in site.posts %}
+{% for entry in site.diary %}
   <li>
-    <a href="{{ post.url }}">
-      {{ post.date | date: "%Y-%m-%d" }}
-      {{ post.title }}
+    <a href="{{ entry.url }}">
+      {{ entry.title }}
     </a>
   </li>
 {% endfor %}

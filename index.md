@@ -9,7 +9,7 @@ title: Home
 - [制作物](/works/)
 
 
-## Recent Tech memo
+## Tech memo
 
 {% assign sorted_techmemo = site.techmemo | sort: "date" | reverse %}
 

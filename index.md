@@ -5,8 +5,8 @@ title: Home
 
 ## CV / 制作物
 
-- [CV →](/cv/)
-- [制作物 →](/works/)
+- [CV](/cv/)
+- [制作物](/works/)
 
 
 ## Recent Tech memo
@@ -18,7 +18,7 @@ title: Home
   ({{ post.date | date: "%Y-%m-%d" }})
 {% endfor %}
 
-[More →](/techmemo/)
+[More](/techmemo/)
 
 ## Recent Diary
 
@@ -29,4 +29,4 @@ title: Home
   ({{ post.date | date: "%Y-%m-%d" }})
 {% endfor %}
 
-[More →](/diary/)
+[More](/diary/)

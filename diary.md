@@ -1,17 +1,14 @@
 ---
 layout: default
-title: Home
+title: Diary
+permalink: /diary/
 ---
 
-# Home
-
-## Recent Diary
+# Diary
 
 {% assign sorted_diary = site.diary | sort: "date" | reverse %}
 
-{% for post in sorted_diary limit:3 %}
+{% for post in sorted_diary %}
 - [{{ post.title }}]({{ post.url }})
   ({{ post.date | date: "%Y-%m-%d" }})
 {% endfor %}
-
-[More →](/diary/)

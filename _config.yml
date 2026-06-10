@@ -5,3 +5,5 @@ theme: minima
 collections:
   diary:
     output: true
+  techmemo:
+    output: true

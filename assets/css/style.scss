@@ -57,3 +57,43 @@ footer p,
     font-size: 16px;
   }
 }
+
+/* 右上の GitHub ボタン：PC表示 */
+#downloads {
+  width: 180px;
+  height: 65px;
+  margin-top: 8px;
+}
+
+#downloads .button {
+  width: 180px;
+  height: 65px;
+  background-size: 180px 65px;
+}
+
+#downloads .button span {
+  font-size: 14px;
+  line-height: 1.2;
+  padding-top: 12px;
+}
+
+/* 右上の GitHub ボタン：スマホ表示 */
+@media only screen and (max-width: 767px) {
+  #downloads {
+    width: 140px;
+    height: 50px;
+    margin-top: 6px;
+  }
+
+  #downloads .button {
+    width: 140px;
+    height: 50px;
+    background-size: 140px 50px;
+  }
+
+  #downloads .button span {
+    font-size: 11px;
+    line-height: 1.2;
+    padding-top: 8px;
+  }
+}

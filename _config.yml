@@ -3,7 +3,7 @@ description: Portfolio and Blog
 theme: jekyll-theme-architect
 
 collections:
-  diary:
+  posts:
     output: true
   techmemo:
     output: true

@@ -20,13 +20,13 @@ title: Home
 
 [More](/techmemo/)
 
-## Recent Diary
+## 雑記
 
-{% assign sorted_diary = site.diary | sort: "date" | reverse %}
+{% assign sorted_posts = site.posts | sort: "date" | reverse %}
 
-{% for post in sorted_diary limit:3 %}
+{% for post in sorted_posts limit:3 %}
 - [{{ post.title }}]({{ post.url }})
   ({{ post.date | date: "%Y-%m-%d" }})
 {% endfor %}
 
-[More](/diary/)
+[More](/posts/)

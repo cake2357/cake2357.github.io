@@ -3,6 +3,24 @@
 
 @import "architect";
 
+header,
+.site-header,
+.site-title,
+.site-description {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.site-description {
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
 footer,
 .site-footer,
 .page-footer {

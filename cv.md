@@ -8,6 +8,6 @@ permalink: /cv/
 
 これはサンプルのCVページです。
 
-- 名前: サンプル 太郎
-- 職業: サンプルエンジニア
-- スキル: Jekyll, Markdown, Web
+- 名前: cake2357
+- 職業: ML / Optimization Research Engineer
+- スキル: Python, LLM/RAG, Continuous Optimization

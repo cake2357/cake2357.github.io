@@ -3,18 +3,11 @@ layout: default
 title: Home
 ---
 
-# Home
+## CV / 制作物
 
-## Recent Diary
+- [CV →](/cv/)
+- [制作物 →](/works/)
 
-{% assign sorted_diary = site.diary | sort: "date" | reverse %}
-
-{% for post in sorted_diary limit:3 %}
-- [{{ post.title }}]({{ post.url }})
-  ({{ post.date | date: "%Y-%m-%d" }})
-{% endfor %}
-
-[More →](/diary/)
 
 ## Recent Tech memo
 
@@ -27,7 +20,13 @@ title: Home
 
 [More →](/techmemo/)
 
-## CV / 制作物
+## Recent Diary
 
-- [CV →](/cv/)
-- [制作物 →](/works/)
+{% assign sorted_diary = site.diary | sort: "date" | reverse %}
+
+{% for post in sorted_diary limit:3 %}
+- [{{ post.title }}]({{ post.url }})
+  ({{ post.date | date: "%Y-%m-%d" }})
+{% endfor %}
+
+[More →](/diary/)
